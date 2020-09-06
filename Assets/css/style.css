@@ -1,0 +1,77 @@
+:root {
+    --main-bg-color: #427bf5;
+    --main-txt-color: #27488f;
+    --main-padding: .5em 1em 1em;
+    
+    --tx-padding: .5em 1em;
+}
+
+h1,h2,p,ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+
+}
+
+h1{
+    font-size: 1.8em;
+    margin-block-start: 0em;
+    margin-block-end: 0.2em;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 1.2em;
+    margin-block-start: 0em;
+    margin-block-end: 0.2em;
+    font-weight: bold;
+}
+p{
+    font-size: 1em;
+    margin-block-start: 0em;
+    margin-block-end: 1.6em;
+}
+
+.lis-main-frame{
+    border: solid 1em var(--main-txt-color);
+    border-radius: 1em;
+    padding: var(--main-padding);
+}
+
+header{
+    border-bottom: solid 0.3em var(--main-txt-color);
+}
+
+.lis-logo{
+    font-weight: bold;
+    font-size: 2.5em;
+    display: inline-block;
+}
+.lis-version{
+    background-color: var(--main-txt-color);
+    color: var(--main-bg-color);
+    font-size: .5em;
+    font-weight: bold;
+    display: inline-block;
+    padding: var(--tx-padding);
+}
+
+footer{
+    border-top: solid 0.3em var(--main-txt-color);
+}
+
+
+.lis-content{
+    padding: var(--main-padding);
+}
+
+.lis-main-nav ul {
+    list-style: none;
+}
