@@ -75,3 +75,22 @@ footer{
 .lis-main-nav ul {
     list-style: none;
 }
+
+.lis-main-nav button{
+    border: solid .2em var(--main-txt-color);
+    border-radius: .5em;
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+    margin-bottom: 0.5em;
+    width: 15em;
+    cursor: pointer;
+}
+
+.lis-main-nav button:hover{
+    background-color: var(--main-txt-color);
+    color: var(--main-bg-color);
+    border-color: var(--main-txt-color);
+}
