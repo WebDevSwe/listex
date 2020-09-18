@@ -1,6 +1,6 @@
 :root {
-    --main-bg-color: #427bf5;
-    --main-txt-color: #27488f;
+    --main-bg-color: #8EB4F6;
+    --main-txt-color: #223F7C;
     --main-padding: .5em 1em 1em;
     
     --tx-padding: .5em 1em;
@@ -37,6 +37,11 @@ p{
     font-size: 1em;
     margin-block-start: 0em;
     margin-block-end: 1.6em;
+}
+
+a:link,
+a:visited{
+    color: var(--main-txt-color);
 }
 
 .lis-main-frame{
@@ -89,7 +94,9 @@ footer{
     cursor: pointer;
 }
 
+
 .lis-main-nav button:hover{
+    
     background-color: var(--main-txt-color);
     color: var(--main-bg-color);
     border-color: var(--main-txt-color);
